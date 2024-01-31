@@ -1,6 +1,13 @@
+import java.lang.StringBuilder
+
 fun main(args: Array<String>) {
     println("Hello World!")
-    Arrays().copyTwoDimensionalArray()
+
+    stringClass().chatToInt()
+    stringClass().charToASCII()
+    stringClass().charToString()
+    stringClass().charArrayToString()
+//    Arrays().copyTwoDimensionalArray()
 //    Arrays().copyOneDimentionalArray()
 //    Arrays().createMultiDimentionalArray()
 //    Arrays().CreateOneDimentionalArray()
