@@ -3,10 +3,12 @@ import java.lang.StringBuilder
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    stringClass().chatToInt()
-    stringClass().charToASCII()
-    stringClass().charToString()
-    stringClass().charArrayToString()
+    var user = User().getDetails()
+
+//    stringClass().chatToInt()
+//    stringClass().charToASCII()
+//    stringClass().charToString()
+//    stringClass().charArrayToString()
 //    Arrays().copyTwoDimensionalArray()
 //    Arrays().copyOneDimentionalArray()
 //    Arrays().createMultiDimentionalArray()
