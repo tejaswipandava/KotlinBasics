@@ -63,16 +63,20 @@ class User() {
 }
 
 fun main() {
-    var emp = Employee("teja", "pandava")
-    println(emp.fullName) //we cant access the firstname and lastname
-    println()
+//    var emp = Employee("teja", "pandava")
+//    println(emp.fullName) //we cant access the firstname and lastname
+//    println()
 
-    val emp1 = Employee1("parikshit", "teja", 12)
-//    val emp2 = Employee2("pJ", "TJ", 12,"Axis")
-    val emp2 = Employee2("pJ", "TJ", 12)
-    emp2.department = "Axis kar do"
-//    emp2.setDepartment1("Axis bank")
-    emp2.getDepartment1()
+//    val emp1 = Employee1("parikshit", "teja", 12)
+////    val emp2 = Employee2("pJ", "TJ", 12,"Axis")
+//    val emp2 = Employee2("pJ", "TJ", 12)
+//    emp2.department = "Axis kar do"
+////    emp2.setDepartment1("Axis bank")
+//    emp2.getDepartment1()
+
+    val emp1 = Employee1("parikshit","vyom",24,"tejaswi")
+    println(emp1)
+
 }
 
 

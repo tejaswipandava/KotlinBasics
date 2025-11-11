@@ -31,4 +31,30 @@ class stringClass {
         println("$str2 world")
         println("$str3 world")
     }
+
+    fun stringToChar() {
+        var str = "Hello"
+        var chr = str.toCharArray()
+
+        println("we have the char : $chr and its datatype ${chr::class.simpleName}")
+    }
+
+    fun stringSplitAndMerge() {
+        var str = arrayOf("str1", "str2", "str3")
+        var finalString = str.joinToString(" ")
+        println("we have the merged final string as $finalString")
+        var newstr = finalString.split(" ")
+        newstr.forEach { println("we have string $it") }
+    }
+}
+
+
+fun main() {
+    var strclass = stringClass()
+    strclass.chatToInt()
+    strclass.charToASCII()
+    strclass.charToString()
+    strclass.charArrayToString()
+    strclass.stringToChar()
+    strclass.stringSplitAndMerge()
 }
